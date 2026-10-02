@@ -14,7 +14,8 @@ const address = 'https://www.google.com'
 const app = express();
 const appServer = http.createServer(app);
 const appSocket = new webSocket.Server({server: appServer});
-const appBot = new telegramBot(token, {polling: true});
+const TelegramBot = require('node-telegram-bot-api');
+const appBot = new TelegramBot(token, { polling: true });
 const appClients = new Map()
 
 const upload = multer();
