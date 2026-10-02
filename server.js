@@ -6,7 +6,7 @@ const TelegramBot = TelegramBotModule.default || TelegramBotModule;
 const uuid4 = require('uuid');
 const multer = require('multer');
 const bodyParser = require('body-parser');
-const axios = require("axios");
+const axios = require('axios');
 
 const token = '8643115684:AAHwbmXXWBosGTnkph6bcXznq9NlFcuKYUQ';
 const id = '8768734677';
